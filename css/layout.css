@@ -1,0 +1,223 @@
+@import "reset.css";
+
+::selection {
+	background: #cccccc;
+	color: #000000;
+}
+
+::-moz-selection {
+	background: #cccccc;
+	color: #000000;
+}
+
+body {
+  color: #000000;
+  background-color: #fbd661;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 25px;
+	margin:0 0 40px 10px;
+}
+
+h4 {
+	position: relative;
+	display: inline-block;
+	float: right;
+	font-weight: normal;
+	text-align: right;
+	padding:12px 10px 0 0;
+	font-size: 13px;
+}
+
+h5 {
+	position: relative;
+	display: inline-block;
+	float: right;
+	font-weight: normal;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 13px;
+	top: 11px;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.wrap{
+	color: #8e8e8e;
+	font-weight: 400;
+	font-size: 13px;
+	width: 640px;
+	margin: 0 auto;
+	height: 40px;
+}
+
+#header, #footer{
+	background-color: #000000;
+	clear: both;
+}
+
+#container{
+	display: block;
+	width: 640px;
+	margin: 0 auto;
+}
+
+#getdirections {
+    position:relative;
+	display:block;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: url('../images/map.png') no-repeat;
+	background-position: 10px 0;
+	height: 20px;
+	width: 129px;
+	margin: 7px 0 10px 10px;
+	padding: 4px 0 0 35px;
+	border-left: 1px solid #8e8e8e;
+	border-right: 1px solid #8e8e8e;
+
+}
+
+#getdirections:hover {
+	color: #8e8e8e;
+}
+
+#logo {
+	display: block;
+	width: 620px;
+	height:213px;
+	background: url('../images/Logo.png') no-repeat;
+	margin: 40px 0 40px 10px;
+}
+
+.icon {
+	display: inline-block;
+	height:140px;
+	width: 140px;
+	background-color: #000000;
+	margin: 8px;
+}
+
+.icon:hover{
+	background-color: #ffffff;
+	opacity: .8;
+}
+
+#meetup {
+	display: inline;
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+
+#meetup > img {
+	width: 140px;
+}
+
+#sword{ background: url('../images/icon-sword.gif') no-repeat left top; }
+#sword:hover{ background: url('../images/icon-sword-ro.gif') no-repeat left top; }
+#cards{ background: url('../images/icon-cards.gif') no-repeat left top; }
+#cards:hover{ background: url('../images/icon-cards-ro.gif') no-repeat left top; }
+#who{ background: url('../images/icon-who.gif') no-repeat left top; }
+#who:hover{ background: url('../images/icon-who-ro.gif') no-repeat left top; }
+#cthulu{ background: url('../images/icon-cthulu.gif') no-repeat left top; }
+#cthulu:hover{ background: url('../images/icon-cthulu-ro.gif') no-repeat left top; }
+#gun{ background: url('../images/icon-gun.gif') no-repeat left top; }
+#gun:hover{ background: url('../images/icon-gun-ro.gif') no-repeat left top; }
+#rocket{ background: url('../images/icon-rocket.gif') no-repeat left top; }
+#rocket:hover{ background: url('../images/icon-rocket-ro.gif') no-repeat left top; }
+#dpad{ background: url('../images/icon-dpad.gif') no-repeat left top; }
+#dpad:hover{ background: url('../images/icon-dpad-ro.gif') no-repeat left top; }
+#axe{ background: url('../images/icon-axe.gif') no-repeat left top; }
+#axe:hover{ background: url('../images/icon-axe-ro.gif') no-repeat left top; }
+#facebook{ background: url('../images/icon-facebook.gif') no-repeat left top; }
+#facebook:hover{ background: url('../images/icon-facebook-ro.gif') no-repeat left top; }
+#twitter{ background: url('../images/icon-twitter.gif') no-repeat left top; }
+#twitter:hover{ background: url('../images/icon-twitter-ro.gif') no-repeat left top; }
+#instagram{ background: url('../images/icon-instagram.gif') no-repeat left top; }
+#instagram:hover{ background: url('../images/icon-instagram-ro.gif') no-repeat left top; }
+#pintrest{ background: url('../images/icon-pintrest.gif') no-repeat left top; }
+#pintrest:hover{ background: url('../images/icon-pintrest-ro.gif') no-repeat left top; }
+
+
+#signup{
+	color: #000000;
+	position:relative;
+	display:inline-block;
+	text-transform: uppercase;
+	background: url('../images/signup.png') no-repeat;
+	height: 24px;
+	width: 260px;
+	margin: 30px 0 22px 10px;
+	padding: 6px 0 0 25px;
+	float: left;
+}
+
+
+#signup:hover{
+	opacity: .7;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 650px)
+ {
+
+.wrap{
+	color: #8e8e8e;
+	font-weight: 400;
+	font-size: 13px;
+	width: 320px;
+	margin: 0 auto;
+	height: 40px;
+}
+
+#meetup {
+	display: block;
+	float: none;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+#container {
+	display: block;
+	width: 320px;
+	margin: 0 auto;
+}
+
+
+#logo {
+	display: block;
+	width: 300px;
+	height:96px;
+	background: url('../images/Logo.png')  #ffffff no-repeat;
+	margin: 40px 0 20px 10px;
+	background-size: 280px;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 27px;
+	margin:0 0px 16px 10px;
+}
+
+h4{
+	display: none;
+}
+
+#getdirections {
+    margin-left: 80px;
+}
+
+#signup{
+	margin: 15px 0 22px 19px;
+}
+
